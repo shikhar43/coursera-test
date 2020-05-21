@@ -1,0 +1,59 @@
+.navbar {
+	background-color: lightblue;
+	
+}
+.navbar-brand h1{
+	color: blue;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.row  .container-fluid{
+	background-color: yellow;
+	
+}
+header + h1 {
+	color: green;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+/*.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}*/
+@media (max-width: 767px) {
+	.row  .container-fluid {
+		margin-right: 60px;
+		margin-left: 60px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media (min-width: 768px) {
+	.row  .container-fluid {
+		margin-right: 30px;
+		margin-left: 30px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+#nav-list {
+	font-size: 1.5em;
+	color: red;
+	margin-right: 50px; 
+	margin-left: 50px;
+}
